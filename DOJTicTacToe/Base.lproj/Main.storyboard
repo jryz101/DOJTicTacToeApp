@@ -35,49 +35,76 @@
                                     <constraint firstAttribute="height" constant="150" id="hZD-AM-TB0"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0D-LA-Pa3">
-                                <rect key="frame" x="159" y="320" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0D-LA-Pa3">
+                                <rect key="frame" x="158.66666666666666" y="319.66666666666669" width="97" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="26S-lN-zJ0"/>
+                                    <constraint firstAttribute="width" constant="97" id="Sxz-4h-aPM"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ic-oq-yXr">
-                                <rect key="frame" x="20" y="320" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ic-oq-yXr">
+                                <rect key="frame" x="19.666666666666671" y="319.66666666666669" width="97" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="lik-Qg-NnX"/>
+                                    <constraint firstAttribute="height" constant="97" id="nWU-77-bO7"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V68-DD-BBP">
-                                <rect key="frame" x="20" y="444" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V68-DD-BBP">
+                                <rect key="frame" x="19.666666666666671" y="443.66666666666669" width="97" height="97.000000000000057"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="3Ua-6U-qqf"/>
+                                    <constraint firstAttribute="width" constant="97" id="dwx-6Z-ET3"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSw-JL-OF8">
-                                <rect key="frame" x="159" y="444" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSw-JL-OF8">
+                                <rect key="frame" x="158.66666666666666" y="443.66666666666669" width="97" height="97.000000000000057"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="6tQ-kL-k3D"/>
+                                    <constraint firstAttribute="width" constant="97" id="AoX-vc-KD9"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-Pt-1vo">
-                                <rect key="frame" x="159" y="194" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-Pt-1vo">
+                                <rect key="frame" x="158.66666666666666" y="193.66666666666666" width="97" height="96.999999999999972"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="AiC-z9-Q3b"/>
+                                    <constraint firstAttribute="width" constant="97" id="DFN-nU-e3Z"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-DK-W2K">
-                                <rect key="frame" x="297" y="319" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-DK-W2K">
+                                <rect key="frame" x="296.66666666666669" y="319.66666666666669" width="97" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="9oT-vn-Cee"/>
+                                    <constraint firstAttribute="height" constant="97" id="NLe-m9-i39"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-CN-Skd">
-                                <rect key="frame" x="20" y="194" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-CN-Skd">
+                                <rect key="frame" x="19.666666666666671" y="193.66666666666666" width="97" height="96.999999999999972"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="hpz-9E-zGz"/>
+                                    <constraint firstAttribute="height" constant="97" id="xkH-sl-U2U"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg7-QK-oU2">
-                                <rect key="frame" x="297" y="194" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg7-QK-oU2">
+                                <rect key="frame" x="296.66666666666669" y="193.66666666666666" width="97" height="96.999999999999972"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="7i9-M7-MHL"/>
+                                    <constraint firstAttribute="height" constant="97" id="a4d-zK-daB"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggA-Dk-H8O">
-                                <rect key="frame" x="297" y="444" width="97" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggA-Dk-H8O">
+                                <rect key="frame" x="296.66666666666669" y="443.66666666666669" width="97" height="97.000000000000057"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="97" id="kY5-wL-Z5R"/>
+                                    <constraint firstAttribute="width" constant="97" id="sEO-gh-AT3"/>
+                                </constraints>
                                 <state key="normal" image="Superman"/>
                             </button>
                         </subviews>
@@ -85,15 +112,33 @@
                         <constraints>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1kU-Pj-0Cw"/>
                             <constraint firstItem="nAT-1h-V5I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="174" id="4TZ-kk-74x"/>
+                            <constraint firstItem="w0D-LA-Pa3" firstAttribute="top" secondItem="ArR-Pt-1vo" secondAttribute="bottom" constant="28.670000000000002" id="5Q3-gX-NLh"/>
+                            <constraint firstItem="w0D-LA-Pa3" firstAttribute="leading" secondItem="1Ic-oq-yXr" secondAttribute="trailing" constant="41.670000000000002" id="7og-ed-Luq"/>
+                            <constraint firstItem="FSw-JL-OF8" firstAttribute="top" secondItem="w0D-LA-Pa3" secondAttribute="bottom" constant="27.329999999999998" id="8Nn-Sd-UiZ"/>
                             <constraint firstItem="eyx-gy-RfT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="ArU-eX-aaV"/>
+                            <constraint firstItem="ggA-Dk-H8O" firstAttribute="top" secondItem="jsc-DK-W2K" secondAttribute="bottom" constant="27.329999999999998" id="D7B-RO-LRz"/>
                             <constraint firstItem="eyx-gy-RfT" firstAttribute="top" secondItem="nAT-1h-V5I" secondAttribute="bottom" constant="36" id="Dvm-aF-dzm"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Fih-bq-Q5i"/>
+                            <constraint firstItem="jsc-DK-W2K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GOb-nd-YfE"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HiG-2D-G62"/>
+                            <constraint firstItem="jsc-DK-W2K" firstAttribute="top" secondItem="hg7-QK-oU2" secondAttribute="bottom" constant="28.670000000000002" id="It1-Md-JUS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nAT-1h-V5I" secondAttribute="bottom" constant="195" id="JrX-OG-Nyb"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Nb4-bs-Rdv"/>
+                            <constraint firstItem="ArR-Pt-1vo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SNe-8G-0vm"/>
+                            <constraint firstItem="ggA-Dk-H8O" firstAttribute="leading" secondItem="FSw-JL-OF8" secondAttribute="trailing" constant="41.329999999999998" id="VfY-GP-9jB"/>
+                            <constraint firstItem="hg7-QK-oU2" firstAttribute="leading" secondItem="ArR-Pt-1vo" secondAttribute="trailing" constant="41.329999999999998" id="Yeo-AM-mMZ"/>
+                            <constraint firstItem="V68-DD-BBP" firstAttribute="top" secondItem="1Ic-oq-yXr" secondAttribute="bottom" constant="27.329999999999998" id="aRx-xU-0l2"/>
+                            <constraint firstItem="w0D-LA-Pa3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="avW-XV-p4S"/>
+                            <constraint firstItem="1Ic-oq-yXr" firstAttribute="top" secondItem="D3g-CN-Skd" secondAttribute="bottom" constant="28.670000000000002" id="buD-hj-zjz"/>
+                            <constraint firstItem="FSw-JL-OF8" firstAttribute="leading" secondItem="V68-DD-BBP" secondAttribute="trailing" constant="41.670000000000002" id="dOs-su-chi"/>
+                            <constraint firstItem="ArR-Pt-1vo" firstAttribute="leading" secondItem="D3g-CN-Skd" secondAttribute="trailing" constant="41.670000000000002" id="e6a-Gl-iuG"/>
+                            <constraint firstItem="1Ic-oq-yXr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fHY-AK-6MZ"/>
+                            <constraint firstItem="FSw-JL-OF8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEq-bn-rKB"/>
                             <constraint firstItem="nAT-1h-V5I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l6q-QL-Lu7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eyx-gy-RfT" secondAttribute="bottom" constant="9" id="nXr-AS-ZKO"/>
+                            <constraint firstItem="jsc-DK-W2K" firstAttribute="leading" secondItem="w0D-LA-Pa3" secondAttribute="trailing" constant="41.329999999999998" id="pIC-rR-GMn"/>
                             <constraint firstItem="nAT-1h-V5I" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qra-M4-DRk"/>
+                            <constraint firstItem="w0D-LA-Pa3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rk6-tM-mw5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eyx-gy-RfT" secondAttribute="trailing" constant="65" id="xf9-vu-s3C"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
