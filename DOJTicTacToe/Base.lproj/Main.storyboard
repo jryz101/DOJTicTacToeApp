@@ -125,30 +125,53 @@
                                     <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A7I-eU-4D0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batman Has Won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZj-eN-xnJ">
+                                <rect key="frame" x="20" y="86" width="374" height="51"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35R-x0-WTw">
+                                <rect key="frame" x="108" y="153" width="198" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Rn-VZ-klc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ArR-Pt-1vo" firstAttribute="top" secondItem="35R-x0-WTw" secondAttribute="bottom" constant="7.6699999999999999" id="1Bu-Ks-n1k"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="1kU-Pj-0Cw"/>
                             <constraint firstItem="nAT-1h-V5I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="174" id="4TZ-kk-74x"/>
                             <constraint firstItem="w0D-LA-Pa3" firstAttribute="top" secondItem="ArR-Pt-1vo" secondAttribute="bottom" constant="28.670000000000002" id="5Q3-gX-NLh"/>
                             <constraint firstItem="w0D-LA-Pa3" firstAttribute="leading" secondItem="1Ic-oq-yXr" secondAttribute="trailing" constant="41.670000000000002" id="7og-ed-Luq"/>
                             <constraint firstItem="FSw-JL-OF8" firstAttribute="top" secondItem="w0D-LA-Pa3" secondAttribute="bottom" constant="27.329999999999998" id="8Nn-Sd-UiZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="35R-x0-WTw" secondAttribute="trailing" constant="108" id="8a5-jy-4zH"/>
                             <constraint firstItem="eyx-gy-RfT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="ArU-eX-aaV"/>
                             <constraint firstItem="ggA-Dk-H8O" firstAttribute="top" secondItem="jsc-DK-W2K" secondAttribute="bottom" constant="27.329999999999998" id="D7B-RO-LRz"/>
                             <constraint firstItem="eyx-gy-RfT" firstAttribute="top" secondItem="nAT-1h-V5I" secondAttribute="bottom" constant="36" id="Dvm-aF-dzm"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Fih-bq-Q5i"/>
                             <constraint firstItem="jsc-DK-W2K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GOb-nd-YfE"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HiG-2D-G62"/>
+                            <constraint firstItem="IZj-eN-xnJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IT7-Gw-PBz"/>
                             <constraint firstItem="jsc-DK-W2K" firstAttribute="top" secondItem="hg7-QK-oU2" secondAttribute="bottom" constant="28.670000000000002" id="It1-Md-JUS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nAT-1h-V5I" secondAttribute="bottom" constant="195" id="JrX-OG-Nyb"/>
                             <constraint firstItem="dOu-eK-b17" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Nb4-bs-Rdv"/>
                             <constraint firstItem="ArR-Pt-1vo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SNe-8G-0vm"/>
+                            <constraint firstItem="35R-x0-WTw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="Smd-eR-rE1"/>
                             <constraint firstItem="ggA-Dk-H8O" firstAttribute="leading" secondItem="FSw-JL-OF8" secondAttribute="trailing" constant="41.329999999999998" id="VfY-GP-9jB"/>
+                            <constraint firstItem="IZj-eN-xnJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="WjJ-Od-F6e"/>
                             <constraint firstItem="hg7-QK-oU2" firstAttribute="leading" secondItem="ArR-Pt-1vo" secondAttribute="trailing" constant="41.329999999999998" id="Yeo-AM-mMZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IZj-eN-xnJ" secondAttribute="trailing" constant="20" id="Zyz-rW-fcc"/>
                             <constraint firstItem="V68-DD-BBP" firstAttribute="top" secondItem="1Ic-oq-yXr" secondAttribute="bottom" constant="27.329999999999998" id="aRx-xU-0l2"/>
                             <constraint firstItem="w0D-LA-Pa3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="avW-XV-p4S"/>
                             <constraint firstItem="1Ic-oq-yXr" firstAttribute="top" secondItem="D3g-CN-Skd" secondAttribute="bottom" constant="28.670000000000002" id="buD-hj-zjz"/>
                             <constraint firstItem="FSw-JL-OF8" firstAttribute="leading" secondItem="V68-DD-BBP" secondAttribute="trailing" constant="41.670000000000002" id="dOs-su-chi"/>
+                            <constraint firstItem="35R-x0-WTw" firstAttribute="top" secondItem="IZj-eN-xnJ" secondAttribute="bottom" constant="16" id="dSO-Kp-CMT"/>
                             <constraint firstItem="ArR-Pt-1vo" firstAttribute="leading" secondItem="D3g-CN-Skd" secondAttribute="trailing" constant="41.670000000000002" id="e6a-Gl-iuG"/>
                             <constraint firstItem="1Ic-oq-yXr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fHY-AK-6MZ"/>
                             <constraint firstItem="FSw-JL-OF8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEq-bn-rKB"/>
@@ -161,6 +184,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="playAgainButton" destination="35R-x0-WTw" id="H4f-92-WPm"/>
+                        <outlet property="winnerLabel" destination="IZj-eN-xnJ" id="mvW-Tg-FXQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
