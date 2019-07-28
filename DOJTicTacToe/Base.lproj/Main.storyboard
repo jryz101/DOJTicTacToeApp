@@ -35,77 +35,95 @@
                                     <constraint firstAttribute="height" constant="150" id="hZD-AM-TB0"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0D-LA-Pa3">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0D-LA-Pa3">
                                 <rect key="frame" x="158.66666666666666" y="319.66666666666669" width="97" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="26S-lN-zJ0"/>
                                     <constraint firstAttribute="width" constant="97" id="Sxz-4h-aPM"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4i-dJ-dH0"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ic-oq-yXr">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ic-oq-yXr">
                                 <rect key="frame" x="19.666666666666671" y="319.66666666666669" width="97" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="lik-Qg-NnX"/>
                                     <constraint firstAttribute="height" constant="97" id="nWU-77-bO7"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Y3-mE-4Na"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V68-DD-BBP">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V68-DD-BBP">
                                 <rect key="frame" x="19.666666666666671" y="443.66666666666669" width="97" height="97.000000000000057"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="3Ua-6U-qqf"/>
                                     <constraint firstAttribute="width" constant="97" id="dwx-6Z-ET3"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tdW-7I-gVu"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSw-JL-OF8">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSw-JL-OF8">
                                 <rect key="frame" x="158.66666666666666" y="443.66666666666669" width="97" height="97.000000000000057"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="6tQ-kL-k3D"/>
                                     <constraint firstAttribute="width" constant="97" id="AoX-vc-KD9"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fp-cy-dvt"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-Pt-1vo">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-Pt-1vo">
                                 <rect key="frame" x="158.66666666666666" y="193.66666666666666" width="97" height="96.999999999999972"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="AiC-z9-Q3b"/>
                                     <constraint firstAttribute="width" constant="97" id="DFN-nU-e3Z"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S2g-2b-5Pu"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-DK-W2K">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-DK-W2K">
                                 <rect key="frame" x="296.66666666666669" y="319.66666666666669" width="97" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="9oT-vn-Cee"/>
                                     <constraint firstAttribute="height" constant="97" id="NLe-m9-i39"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K0e-77-84L"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-CN-Skd">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-CN-Skd">
                                 <rect key="frame" x="19.666666666666671" y="193.66666666666666" width="97" height="96.999999999999972"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="hpz-9E-zGz"/>
                                     <constraint firstAttribute="height" constant="97" id="xkH-sl-U2U"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Pe-wf-Icf"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg7-QK-oU2">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg7-QK-oU2">
                                 <rect key="frame" x="296.66666666666669" y="193.66666666666666" width="97" height="96.999999999999972"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="7i9-M7-MHL"/>
                                     <constraint firstAttribute="height" constant="97" id="a4d-zK-daB"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0H-Rh-sxG"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggA-Dk-H8O">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggA-Dk-H8O">
                                 <rect key="frame" x="296.66666666666669" y="443.66666666666669" width="97" height="97.000000000000057"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="kY5-wL-Z5R"/>
                                     <constraint firstAttribute="width" constant="97" id="sEO-gh-AT3"/>
                                 </constraints>
-                                <state key="normal" image="Superman"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A7I-eU-4D0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -150,7 +168,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Superman" width="512" height="512"/>
         <image name="background" width="380" height="676"/>
         <image name="game table" width="400" height="400"/>
         <image name="logo" width="700" height="338"/>
