@@ -9,7 +9,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    
+    //UI outlets
     @IBOutlet weak var winnerLabel: UILabel!
     @IBOutlet weak var playAgainButton: UIButton!
     
@@ -29,12 +29,13 @@ class ViewController: UIViewController {
     
     
     
-    
+    //playAgain button function
     @IBAction func playAgain(_ sender: UIButton) {
+        
     }
     
     
-
+    //TappedButton function
     @IBAction func tappedButton(_ sender: UIButton) {
         
         //Set activePosition equals to sender.tag - 1
@@ -60,6 +61,10 @@ class ViewController: UIViewController {
             sender.setImage(UIImage(named: "Superman.png"), for: [])
             activePlayer = 1
         }
+            
+            
+            
+        ////Completion Block
         //For in loop combination algorithm to determine winner.
         for combination in winningCombinations {
                 
@@ -68,17 +73,50 @@ class ViewController: UIViewController {
                     //Winner results
                     activeGame = false
                     
-                    //Writes the textual representations of the given items into the standard output.
-                    print(gameState[combination[0]])
+                    //Set winnerLabel & playAgainButton to false
+                    winnerLabel.isHidden = false
+                    playAgainButton.isHidden = false
                     
                     
+                    //Conditional methods of gameState combination.
+                    if (gameState[combination[0]]) == 1 {
+                        
+                        //Set winnerLabel
+                        winnerLabel.text = "Batman Has Won"
+                        
+                    }else{
+                        
+                        //Set winnerLabel
+                        winnerLabel.text = "Superman Has Won"
+                    }
+                    
+                    //Animate winnerLabel and playAgainButton changes to one or more views using the specified duration
+                    UIView.animate(withDuration: 1) {
+                        
+                        self.winnerLabel.center = CGPoint(x: self.winnerLabel.center.x + 500, y: self.winnerLabel.center.y)
+                        
+                        self.playAgainButton.center = CGPoint(x: self.playAgainButton.center.x + 500, y: self.playAgainButton.center.y)
+                    }
                 }
             }
+        }
     }
-}
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Set winnerLabel & playAgainButton to true
+        winnerLabel.isHidden = true
+        playAgainButton.isHidden = true
+        
+        //Set winnerLabel & playAgainButton animation
+        winnerLabel.center = CGPoint(x: winnerLabel.center.x - 500, y: winnerLabel.center.y)
+        playAgainButton.center = CGPoint(x: playAgainButton.center.x - 500, y: playAgainButton.center.y)
+        
+        
     }
 }
 
