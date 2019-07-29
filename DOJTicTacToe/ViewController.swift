@@ -32,6 +32,32 @@ class ViewController: UIViewController {
     //playAgain button function
     @IBAction func playAgain(_ sender: UIButton) {
         
+        
+        activeGame = true
+        
+        activePlayer = 1
+        
+        gameState = [0, 0, 0, 0, 0, 0, 0, 0, 0,]
+        
+        //For in loop methids
+        for i in 1..<10 {
+            
+            //Casting the return tags as UIButton.
+            if let button = view.viewWithTag(i) as? UIButton {
+                
+                //Reset Image
+                button.setImage(nil, for: [])
+            }
+            
+            //Set winnerLabel & playAgainButton to true
+            winnerLabel.isHidden = true
+            playAgainButton.isHidden = true
+            
+            //Set winnerLabel & playAgainButton animation
+            winnerLabel.center = CGPoint(x: winnerLabel.center.x - 500, y: winnerLabel.center.y)
+            playAgainButton.center = CGPoint(x: playAgainButton.center.x - 500, y: playAgainButton.center.y)
+        }
+        
     }
     
     
